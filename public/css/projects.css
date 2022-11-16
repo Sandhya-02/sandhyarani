@@ -1,0 +1,135 @@
+.projects_width{
+    /* max-width: 50%; */
+    /* margin:0 10%; */
+    border: solid;
+    padding-left: 10% ;
+    /* align-content: space-between; */
+    /* display: flex; */
+    /* align-items: stretch; */
+    display: grid;
+
+
+}
+.background_transparent{
+    background:transparent;
+}
+
+.type_headings{
+    align-items:center;
+    text-align:center;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    /* background:transparent; */
+    padding:1rem;
+    font-size: large;
+    color:white;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    /* background-color: ; */
+    backdrop-filter: blur(0px) saturate(180%);
+    -webkit-backdrop-filter: blur(0px) saturate(180%);
+
+}
+
+.type_headings_mech{
+    background-color: rgba(41, 58, 88, 0.75);
+}
+
+.type_headings_tech{
+    background-color: rgba(47, 92, 49, 0.75);    
+}
+
+.project_grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(220px,auto));
+    grid-gap:2rem;
+    background:transparent;
+}
+
+.project_grid h3{
+    font-size:medium;
+    margin-bottom: 1rem;
+    background: transparent;
+}
+
+.project_grid_internal{
+    background:transparent;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(220px,auto));
+    grid-gap:1rem;
+}
+
+ul.circle_dots{
+    background: transparent;
+    list-style-type: circle;
+    padding-left: 10%;
+}
+li{
+    background: transparent;
+    font-size: small    ;
+}
+
+.nue {
+    /* From https://css.glass */
+    /* background: rgba(255, 255, 255, 0.2); */
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(85, 85, 85, 0.1);
+    backdrop-filter: blur(8.5px);
+    -webkit-backdrop-filter: blur(8.5px);
+    border: 1px solid rgba(255, 255, 255, 0.46);  
+    /* height: auto; */
+    padding: 2rem;
+    
+  }
+
+.nue:hover{
+    /* background: rgb(16, 167, 255);
+     */
+     transform: scale(1.1);
+     transition: ease .50s;
+     cursor: pointer;
+
+     backdrop-filter: blur(2px) saturate(180%);
+     -webkit-backdrop-filter: blur(2px) saturate(180%);
+     
+     border-radius: 12px;
+     border: 1px solid rgba(255, 255, 255, 0.125);
+     color:white;
+}
+.nue_mech:hover{
+    background-color: rgba(41, 58, 88, 0.75);
+}
+
+.nue_tech:hover{
+    background-color: rgba(47, 92, 49, 0.75);
+}
+
+.project_title{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    /* justify-content: space-between; */
+    text-align: center;
+    font-size: 2rem;
+    /* background-image: url(../content/black-board.jpg); */
+    border-radius: 1rem;
+    padding: 1rem 1rem  ;
+    background: transparent;
+}
+
+
+.project_section{
+ background-image: url("../content/fog.jpg");
+}
+.project_border{
+    background: transparent;
+}
+/* .project_border{
+    /* border: solid; */
+    /* border-radius: 5%; */
+    /* padding:10rem; */
+    /* max-width: 100%; */
+    /* padding-bottom: 2rem; */
+        /* margin-left: -2rem;
+        margin-right: -2rem; */
+/* }  */
