@@ -1,0 +1,124 @@
+/* .skills{ */
+    /* background-image: url(../content/background-white.png); */
+/* }    */
+
+.skills_grid{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(390px,auto));
+    grid-gap:2rem;
+}
+.skills_title{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    /* justify-content: space-between; */
+    text-align: center;
+    font-size: 2rem;
+    /* background-image: url(../content/black-board.jpg); */
+    border-radius: 1rem;
+    padding: 1rem 1rem  ;
+    
+}
+
+.skills_title h1{
+    background: transparent;
+    color: rgb(43, 43, 43);
+}
+.items{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,auto));
+    grid-gap:1rem;
+    align-items:center;
+    text-align:center;
+}
+
+.items h3{
+    background: transparent;
+}
+
+.items p{
+    background: transparent;
+}
+
+
+.sub-box{
+    padding:0px 45px 50px 45px;
+    transition: ease .50s;
+    cursor: pointer;
+    width:30rem;
+    height:20rem;
+}
+
+.sub-box:hover{
+    transform: scale(1.1);
+
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+.sub-img{
+    /* background-color: #00e7e7; */
+    background: transparent;
+    border-radius: 30%;
+}
+.sub-img img{
+    max-width:100%;
+    width:100px;
+    height:auto;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    /* background-color: #00e7e7; */
+    background: transparent;
+    /* border-radius: 30%; */
+
+    
+}
+
+.glass {
+    /* From https://css.glass */
+    /* background: rgba(255, 255, 255, 0.2); */
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.5px);
+    -webkit-backdrop-filter: blur(8.5px);
+    border: 1px solid rgba(255, 255, 255, 0.46);  
+    /* height: auto; */
+    
+  }
+
+
+
+.mechanical-color:hover{
+    /* background: rgb(204,43,94);
+background: linear-gradient(90deg, rgba(204,43,94,1) 0%, rgba(117,58,136,1) 100%); */
+background-color: #8aff6d;
+
+}
+
+.web-dev-color:hover{
+/*  
+background: rgb(222,98,98);
+background: linear-gradient(90deg, rgba(222,98,98,1) 0%, rgba(255,184,140,1) 100%);  */
+background-color: #d2ff6a;
+}
+
+.programmng-lang-color:hover{
+    background-color: #ffd77b;
+}
+
+.others-color:hover{
+    background-color: #f3aba9;
+}
+
+.project-management-color:hover{
+    background-color: #b6c790;
+}
+
+.neu_sphere{
+    border-radius: 50%;
+background: linear-gradient(145deg, #eff1f1, #c9cbcb);
+box-shadow:  20px 20px 60px #bebfbf,
+             -20px -20px 60px #ffffff;
+}
