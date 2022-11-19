@@ -1,0 +1,98 @@
+.perproj_title {
+    /* border:m solid; */
+    margin-bottom: 0%;
+    padding-top:4rem ;
+    padding-bottom: 0%;
+
+}
+
+.perproj_title h1{
+        font-size: 4rem;
+
+        background: transparent;
+        color: rgb(43, 43, 43);
+    text-align: center;
+    align-items: center;
+    
+}
+
+.personal_proj_grid{
+    display:grid;
+grid-template-columns: repeat(auto-fit,minmax(370px,auto));
+grid-gap:2rem;
+/* min-height: 100%;
+height:100%; */
+padding-top: 3rem;
+padding-bottom:3rem;
+/* margin-bottom: 7rem; */
+/* height: 100%;
+width: 100%; */
+
+}
+
+.cards{
+    padding: 1rem;
+    margin:.2rem;
+    /* display: flex; */
+
+
+
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.54);
+border-radius: 10px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5.6px);
+-webkit-backdrop-filter: blur(5.6px);
+border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+
+ul.projects_circle_dots{
+    background: transparent;
+    list-style-type: circle;
+    padding-left: 5%;
+}
+.cards:hover{
+    
+    /* transform: scale(1.1);
+    transition: ease .50s; */
+
+    
+        /* -webkit-animation: scale-up-center 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.2s both;
+                animation: scale-up-center 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.2s both;
+     */
+
+    /* cursor: pointer; */
+}
+
+.numbers{
+    background-color: orange;
+    width: 25px;
+    height: 25px;
+    /* padding-left:  20px;
+    padding-right:  20px;
+    padding-bottom: 12px; */
+    background-color: aqua;
+    border-radius: 3rem;
+   border: solid;
+}
+
+.numbers h5{
+    position:absolute;
+    background: transparent;
+
+/*     
+    text-align: center;
+    align-items: center; */
+  
+    padding: 5px;
+    /* margin: 10px ; */
+    /* border: solid; */
+    /* margin: 1rem; */
+
+}
+
+.personal_skills_svg img{
+    max-height: 2000px;
+    
+}
