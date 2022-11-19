@@ -13,10 +13,11 @@
     justify-content: center ;
     /* justify-content: space-between; */
     text-align: center;
-    font-size: 2rem;
+    font-size: 3rem;
     /* background-image: url(../content/black-board.jpg); */
     border-radius: 1rem;
-    padding: 1rem 1rem  ;
+    /* padding: 1rem 1rem  ; */
+
     
 }
 

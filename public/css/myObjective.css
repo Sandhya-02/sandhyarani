@@ -20,7 +20,7 @@ width: 100%; */
 
 .myObjective h1{
     padding-top: 3rem;
-    padding-bottom: 2rem;
+    /* padding-bottom: 2rem; */
     font-size: 4rem;
     color:  rgb(43, 43, 43);
 }
@@ -30,7 +30,7 @@ width: 100%; */
 }
 
 .rectangle_divider{
-height: 0.3rem;
-width:8rem;
-background-color: rgb(228, 0, 133);
+height: 0.25rem;
+width:15rem;
+background-color: rgb(136, 136, 136);
 }

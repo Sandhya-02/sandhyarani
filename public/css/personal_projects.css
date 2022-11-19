@@ -1,9 +1,19 @@
+.perproj_title {
+    /* border:m solid; */
+    margin-bottom: 0%;
+    padding-top:4rem ;
+    padding-bottom: 0%;
+
+}
+
 .perproj_title h1{
         font-size: 4rem;
+
         background: transparent;
         color: rgb(43, 43, 43);
     text-align: center;
     align-items: center;
+    
 }
 
 .personal_proj_grid{
@@ -14,7 +24,7 @@ grid-gap:2rem;
 height:100%; */
 padding-top: 3rem;
 padding-bottom:3rem;
-margin-bottom: 7rem;
+/* margin-bottom: 7rem; */
 /* height: 100%;
 width: 100%; */
 
